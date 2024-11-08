@@ -1,0 +1,1 @@
+This showcases a Food Website based on Singapore interest of food. It was done as part of the Web Development course. Programming languages used are HTML, CSS, JavaScript. Bootstrap was used as well for certain parts of the web pages. 
