@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=YOb67OKw62s
+(Footer reference)
+
+Image Slider - Automatic (w3School) 
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+Icons 
+Boxicon website 
+
+JS - Using swiper from CDN
+Swiper JS 
+
+Bootstrap 
+Bootstrap used for the testimonial slider 

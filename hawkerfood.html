@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compaible" content="IE=edge">
+
+    <!-- Site Metas-->
+    <!--<tite>Food Magazine - Responsive HTML5</tite> -->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons-->
+    
+    <!-- Bootstrap CSS-->
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/hawkerfood.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- Responsive CSS -->
+
+    <!-- Custom CSS -->
+
+    <!-- Javascript -->
+    <script src="hawkerfood.js" defer></script>
+    
+</head>
+
+<body>
+    <!-- Start header -->
+    <header>
+        <!-- <h1 style="font-size:30px;">Biggy Bites</h1> -->
+        <img class="logo" src="images/logo.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html"><b>HOME</b></a></li>
+                <li><a href="editorspick.html"><b>EDITOR'S PICK</b></a></li>
+                <li><a href="hawkerfood.html"><b>TOP 20 HAWKER FOOD</b></a></li>
+                <li><a href="gallery.html"><b>GALLERY</b></a></li>
+                <li><a href="about.html"><b>ABOUT</b></a></li>
+                <li><a href="#"><b>SIGN IN</b></a></li>
+            </ul>
+        </nav>
+        <!-- <a class="cta" href="#"><button>Contact</button></a> -->
+    </header>
+    <!-- End header -->
+    
+    <!-- Start All Pages -->
+	<div class="all-page-title page-breadcrumb">
+		<div class="container-all text-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>TOP 20 HAWKER FOOD</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End All Pages -->
+
+
+
+
+
+
+
+
+    <!-- Gallery with Filtering -->
+    <h2>Singapore is a food paradise where many identify strongly with our rich hawker culture. 
+        This one-stop guide introduces you to the best hawker foods on our sunny island. We love our
+        hawker food and from regional Chinese cuisine to traditional dishes from Malay Archipelago and 
+        South Asia to local delights, we are constantly spoilt for choice. Here are the top 15 hawker food!
+    </h2>
+    <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> ALL</button>
+    <button class="btn" onclick="filterSelection('chinese')"> CHINESE</button>
+    <button class="btn" onclick="filterSelection('malay')"> MALAY</button>
+    <button class="btn" onclick="filterSelection('indian')"> INDIAN</button>
+    <button class="btn" onclick="filterSelection('western')"> WESTERN</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+    <div class="column chinese">
+        <div class="content">
+        <img src="/images/top15/1chickenRice.jpeg" alt="Mountains" style="width:100%">
+        <h4>Chicken Rice</h4>
+        <p>This is one of the nation's most loved and well-recognised hawker staples is undoubtedly Chicken Rice!
+            Available in variations of steamed, roasted, and soy sauce chicken. What makes or breaks this dish is 
+            the rice. A good bowl of chicken rice is sinfully oily, and when combined with a variety of dipping 
+            sauces and a tender piece of chicken, makes for a flavourful and fragant mouthful. Recommended stalls: 
+            1. Nam Kee Chicken Rice and Restaurant 2. Xing Yun Hainanese Boneless Chicken Rice 
+        </p>
+        </div>
+    </div>
+    <div class="column chinese">
+        <div class="content">
+        <img src="/images/top15/2kwayChap.jpeg" alt="Lights" style="width:100%">
+        <h4>Kway Chap</h4>
+        <p>A classic all-time favourite for Singaporeans, this deceivingly simple dish requires a fair bit of effort
+            and time to prepare. From tedious work in cleaning the innards to the long braising hours, some stalls 
+            start work as early as 12am. Recommended stalls: 1. 284 Kway Chap 2. Ying Yi Kway Chap.
+        </p>
+        </div>
+    </div>
+    <div class="column chinese">
+        <div class="content">
+        <img src="/images/top15/3bakChorMee.jpg" alt="Nature" style="width:100%">
+        <h4>Bak Chor Mee</h4>
+        <p>A quick meal fix for any day, Bak Chor Mee is simply a bowl full of noodles litetered with minced meat bits, 
+            meatballs, fishball, stewed mushrooms and a healthy scoop of chopped chili slices. Available in your choice 
+            of dry or soup variants along with your pick of noodles, the dish is typically best enjoyed with thick, wavy 
+            mee pok noodles tossed in a chilli-vinegar sauce that differs from stall to stall. Recommended stalls: 1. 58 
+            Minced Meat Noodle 2. Toa Payoh Lorong 5 Bak Chor Mee.
+        </p>
+        </div>
+    </div>
+
+    <div class="column chinese">
+        <div class="content">
+        <img src="/images/top15/4fishSoup.jpeg" alt="Car" style="width:100%">
+        <h4>Fish Soup</h4>
+        <p>As its name suggests: tender, thinly sliced pieces of fish swimming in the soup. The nourishing bowls are 
+            customisable and diners get to decided if they want the rice or noodles to enjoy with the soup. Despite fish 
+            soup being a light and healthy dish, this hawker delight is by no means, bland. The soup is laced with the 
+            sweeetness and freshness of the fish and is elevated with evaporated milk for a creamier and heartier flavour 
+            profile. Most hawker stalls offer the option of both sliced fish and fried fish versions. Recommened stalls: 
+            1. Beach Road Fish Head Bee Hoon 2. Jun Yuan House Of Fish. 
+        </p>
+        </div>
+    </div>
+    <div class="column chinese">
+        <div class="content">
+        <img src="/images/top15/5rojak.jpg" alt="Car" style="width:100%">
+        <h4>Rojak</h4>
+        <p>An Asian salad of Javanese origin, Rojak is a lesser mentioned quintessential hawker food dished out in both 
+            chinese and Indian versions across hawker stalls that Singaporeans know and love just as much! From classic 
+            Chinese-style dark rojak with crisp vegetables and fritters tossed in a sticky, savoury sauce, to the white 
+            and fruit rojak, try them all out to find your favourite rendition of this mixture of sliced fruit and vegetables 
+            douched in spicy plum sugar dressing. Recommended stalls: 1. Soon Heng Rojak 2. Rojak Line.
+        </p>
+        </div>
+    </div>
+    <div class="column indian">
+        <div class="content">
+        <img src="/images/top15/6rotiPrata.jpg" alt="Car" style="width:100%">
+        <h4>Roti Prata</h4>
+        <p>This Indian specialty is pleasing to the palate and the eye. Crispy on the outside, soft on the inside. A flat bread 
+            made by frying stretched dough flavoured with ghee, it is usaully served with fish or mutton curry. Roti means 'bread', 
+            and prata means 'flat' in hindi. No matter where it comes from, roti prata is a satisfying meal for any hour of the day.
+            While the classic versions are served plain or with eggs as a filling, local menus now feature a variety of modern 
+            variations such as cheese, chocolate, ice-cream and even durians. Recommended stalls: 
+        </p>
+        </div>
+    </div>
+
+    <div class="column malay">
+        <div class="content">
+        <img src="/images/top15/7nasiLemak.jpeg" alt="People" style="width:100%">
+        <h4>Nasi Lemak</h4>
+        <p>Nasi Lemak is a huge hit among diners of all races, cultures and ages. COnsisting of coconut rice, fried chicken, 
+            eggs, peanuts and a generous serving of flaming sambal, this fragant dish is the perfect savoury and spicy delight 
+            for any time of the day. Aromatic rice and good, fiery chilli are the two most essential hallmarks of a good plate 
+            of Nasi Lemak. Be it for breakfast, lunch or dinner, there's sure to be someplace you can visit to enjoy this iconic 
+            dish. Recommended stalls: 1. Boon Lay Power Nasi Lemak 2. Punggol Nasi Lemak.
+        </p>
+        </div>
+    </div>
+    <div class="column malay">
+        <div class="content">
+        <img src="/images/top15/8meeRebus.jpg" alt="People" style="width:100%">
+        <h4>Mee Rebus</h4>
+        <p>Mee Rebus is one of the iconic hawker noodles dishes in Singapore, of yellow noodles served with thick and spicy 
+            potato-based gravy. 'Rebus' means to blanch in Malay, therefore Mee Rebus refers to 'blanched noodles'. The ingredients 
+            of Mee Rebus are typically included with hard-boiled egg, bean sprout, fried shallots, tau kwa (fried beancurd) and spring 
+            onions. When you get that bowl of Mee Rebus with indulgent thick and nutty gravy with a touch of sweetness, you know you 
+            are in for a good treat. Not only is it usually quite affordable, but I also find the rich and thick potato gravy very 
+            comforting to slurp on. Paired with fiery sliced green chilli and a squeeze of fresh lime, you get sweet, savoury, soury, 
+            and spicy all in one mouthful. Recommended stalls: 
+        </p>
+        </div>
+    </div>
+    <div class="column malay">
+        <div class="content">
+        <img src="/images/top15/9meeSiam.jpg" alt="People" style="width:100%">
+        <h4>Mee Siam</h4>
+        <p>Mee Siam is a dish of bee hoon (rice vermicelli) with a unique sweet and tart gravy. The dish is influenced by Thai cuisine, 
+            while other believe that the dish is Malay or Paranaken in origin. A basic Mee Siam comprises of rice vermicelli (bee hoon) 
+            along with tau pok and hardboiled egg, all of which are in a tangy and sweet-spicy gravy. Also there are a couple of chain stores 
+            such as (some) Killiney Kopitiam, Qiji and Kaffe & Toast which serve up pretty-decent Mee Siam as well. Recommended stalls: 
+            1. Jia Xiang Mee Siam 2. The Royals Cafe 3. Grandma Mee Siam
+        </p>
+        </div>
+    </div>
+    <div class="column western">
+        <div class="content">
+        <img src="/images/top15/10chickenCutlet.jpg" alt="People" style="width:100%">
+        <h4>Chicken Cutlet</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column malay">
+        <div class="content">
+        <img src="images/top15/11asamLaksa.jpg" alt="People" style="width:100%">
+        <h4>Asam Laksa</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column malay">
+        <div class="content">
+        <img src="images/top15/12nasiBriyani.jpg" alt="People" style="width:100%">
+        <h4>Nasi Briyani</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column indian">
+        <div class="content">
+        <img src="images/top15/13masalaDosa.jpg" alt="People" style="width:100%">
+        <h4>Masala Dosa</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column indian">
+        <div class="content">
+        <img src="/images/top15/14roganJosh.jpg" alt="People" style="width:100%">
+        <h4>Rogan Josh</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column indian">
+        <div class="content">
+        <img src="/images/top15/15samosa.jpg" alt="People" style="width:100%">
+        <h4>Samosa</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column indian">
+        <div class="content">
+        <img src="/images/top15/16palakPaneer.jpg" alt="People" style="width:100%">
+        <h4>Palak Paneer</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column western">
+        <div class="content">
+        <img src="/images/top15/17fishAndChips.jpg" alt="People" style="width:100%">
+        <h4>Fish and Chips</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column western">
+        <div class="content">
+        <img src="/images/top15/18spaghettiBolognese.jpg" alt="People" style="width:100%">
+        <h4>Spaghetti Bolognese</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column western">
+        <div class="content">
+        <img src="/images/top15/19chickenChop.jpg" alt="People" style="width:100%">
+        <h4>Chicken Chop</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column western">
+        <div class="content">
+        <img src="/images/top15/20beefSteak.jpg" alt="People" style="width:100%">
+        <h4>Beef Steak</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <!-- END GRID -->
+</div>
+
+     <!-- Start of Footer -->
+     <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>Finegap</h4>
+                    <ul>
+                        <li><a href="">Tutorials</a></li>
+                        <li><a href="">Programming</a></li>
+                        <li><a href="">Development</a></li>
+                        <li><a href="">Technology</a></li>
+                    </ul>
+                </div>
+
+                <!-- 2nd Column -->
+                <div class="footer-col">
+                    <h4>Finegap</h4>
+                    <ul>
+                        <li><a href="">Tutorials</a></li>
+                        <li><a href="">Programming</a></li>
+                        <li><a href="">Development</a></li>
+                        <li><a href="">Technology</a></li>
+                    </ul>
+                </div>
+
+                <!-- 3rd Column -->
+                <div class="footer-col">
+                    <h4>Finegap</h4>
+                    <ul>
+                        <li><a href="">Tutorials</a></li>
+                        <li><a href="">Programming</a></li>
+                        <li><a href="">Development</a></li>
+                        <li><a href="">Technology</a></li>
+                    </ul>
+                </div>
+
+                <!-- 4th Column -->
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <form action="">
+                        <input type="text" placeholder="Your name" class="inputName">
+                        <input type="email" placeholder="Enter Company Email" class="inputEmail">
+                        <input type="submit" value="Submit" class="inputSubmit">
+
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="row-footer">
+                <div class="col-footer">
+                    <p>&#169; 2022 Finegap. All Rights Reserved.</p>
+                </div>
+                <div class="socialIcons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+</body>
+</html>
